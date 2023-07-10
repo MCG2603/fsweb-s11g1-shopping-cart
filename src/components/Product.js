@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { ScProduct } from "./scParts";
+import MyContextProvider from "../contexts/ProductContext";
 
 const Product = (props) => {
   return (
